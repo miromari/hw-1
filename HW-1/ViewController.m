@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "FSCalendar.h"
 
 @interface ViewController ()
+
+
 
 @end
 
@@ -17,6 +20,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    // In loadView(Recommended) or viewDidLoad
+    FSCalendar *calendar = [[FSCalendar alloc] initWithFrame:CGRectMake(0, 0, 320, 300)];
+    calendar.dataSource = self;
+    calendar.delegate = self;
+    [self.view addSubview:calendar];
 }
 
 - (void)didReceiveMemoryWarning {
