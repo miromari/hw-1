@@ -14,6 +14,7 @@
 		4C2D9BB11D619569007145C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C2D9BB01D619569007145C2 /* Assets.xcassets */; };
 		4C2D9BB41D619569007145C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C2D9BB21D619569007145C2 /* LaunchScreen.storyboard */; };
 		4C2D9BBC1D6195A6007145C2 /* lily.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C2D9BBB1D6195A6007145C2 /* lily.jpg */; settings = {ASSET_TAGS = (); }; };
+		4C2D9BBE1D61BB4E007145C2 /* rose.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C2D9BBD1D61BB4E007145C2 /* rose.jpg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		4C2D9BB31D619569007145C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C2D9BB51D619569007145C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C2D9BBB1D6195A6007145C2 /* lily.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lily.jpg; sourceTree = "<group>"; };
+		4C2D9BBD1D61BB4E007145C2 /* rose.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rose.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				4C2D9BAA1D619569007145C2 /* ViewController.h */,
 				4C2D9BAB1D619569007145C2 /* ViewController.m */,
 				4C2D9BBB1D6195A6007145C2 /* lily.jpg */,
+				4C2D9BBD1D61BB4E007145C2 /* rose.jpg */,
 				4C2D9BAD1D619569007145C2 /* Main.storyboard */,
 				4C2D9BB01D619569007145C2 /* Assets.xcassets */,
 				4C2D9BB21D619569007145C2 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C2D9BB41D619569007145C2 /* LaunchScreen.storyboard in Resources */,
+				4C2D9BBE1D61BB4E007145C2 /* rose.jpg in Resources */,
 				4C2D9BBC1D6195A6007145C2 /* lily.jpg in Resources */,
 				4C2D9BB11D619569007145C2 /* Assets.xcassets in Resources */,
 				4C2D9BAF1D619569007145C2 /* Main.storyboard in Resources */,
